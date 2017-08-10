@@ -1,2 +1,5 @@
+
+//https://community.bistudio.com/wiki/Arma_3_Respawn
+
 respawn = "BASE";
 disabledAI = 1;
