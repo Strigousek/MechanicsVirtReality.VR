@@ -1,5 +1,12 @@
-
+// Description.ext
+//https://community.bistudio.com/wiki/Description.ext
 //https://community.bistudio.com/wiki/Arma_3_Respawn
+ //The Description.ext file sets the overall mission attributes, and defines some global entities that will be available to other scripts.
+ //It is placed in mission's root folder.
+ //It uses the same syntax and structure as the Config.cpp file, but supports only a limited number of the full set of Config.cpp classes.
+ //Many, such as CfgVehicles, won't work.
+//In OFP:Elite this file is required for MP missions. If this is not included, a "-1 error" is shown when selecting the mission and the mission won't load.
+
 
 respawn = "BASE";
 disabledAI = 1;
